@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
-
 UNAME=`uname -m`
-
 mkdir -p /opt/cmake
 cd /opt/cmake
 if [ "$UNAME" == "aarch64" ]; then
